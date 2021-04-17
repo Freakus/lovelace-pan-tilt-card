@@ -1,7 +1,7 @@
 {
   "name": "pan-tilt-card",
   "version": "0.1.0",
-  "description": "A simple card for controlling pan-tilt mechanisms via a pair of number_input helpers.",
+  "description": "A simple card for controlling pan-tilt mechanisms via a pair of input_number helpers.",
   "keywords": [
     "home-assistant",
     "homeassistant",
