@@ -42,7 +42,6 @@ class PanTiltCard extends HTMLElement {
     const minX = this.stateX.attributes.min;
     const maxX = this.stateX.attributes.max;
     const stepX = this.stateX.attributes.step;
-    const stepX = this.stateX.attributes.step;
     const minY = this.stateY.attributes.min;
     const maxY = this.stateY.attributes.max;
     const stepY = this.stateY.attributes.step;
