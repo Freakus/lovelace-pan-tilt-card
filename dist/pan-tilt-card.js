@@ -85,13 +85,13 @@ class PanTiltCard extends HTMLElement {
     if (!config.entity_x) {
       throw new Error('You need to define an entity for the X value');
     }
-    if (config.entity_x.split(".")[0] == "number" || config.entity_x.split(".")[0] == "input_number") {
+    if (config.entity_x.split(".")[0] != "number" && config.entity_x.split(".")[0] != "input_number") {
       throw new Error('The entity supplied for the X value must be a number or input_number');
     }
     if (!config.entity_y) {
       throw new Error('You need to define an entity for the Y value');
     }
-    if (config.entity_y.split(".")[0] == "number" || config.entity_y.split(".")[0] == "input_number") {
+    if (config.entity_y.split(".")[0] != "number" && config.entity_y.split(".")[0] != "input_number") {
       throw new Error('The entity supplied for the Y value must be a number or input_number');
     }
     this.config = config;
